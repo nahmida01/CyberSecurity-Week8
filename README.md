@@ -17,7 +17,8 @@ Vulnerability #1 : Sql Injection
 
 This takes place by injecting sql code directly into URL of the  parameter. We insert ' OR SLEEP(5)=0--' after thet php id which makes the page loading for a few seconds and not reponsive, then returning to the same page. We tried it for green target which didn't work and took us to the home page of salesperson. 
 
-https://github.com/nahmida01/CyberSecurity-Week8/blob/master/SQL_injection.gif
+![sql_injection](https://user-images.githubusercontent.com/34847878/49044738-af1e7080-f19c-11e8-870c-2d7ae98b101d.gif)
+
 
 Vulnerability #2: Session Hijacking/Fixation
 
